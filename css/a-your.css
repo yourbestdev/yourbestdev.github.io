@@ -1,0 +1,31 @@
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.services-card{
+    text-align: center;
+    width: 350px;
+    height: 380px;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px #c9c9c9;
+    
+}
+.services-card:hover{
+    background-color: #eefda8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.domain{
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 207, 48);
+}
+.domain-content{
+    margin: 10px;
+    padding: 10px;
+}
+.form-domain{
+    display: flex;
+}
